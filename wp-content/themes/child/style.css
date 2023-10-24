@@ -1,0 +1,280 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+/* ------------ Header Css Start ------------------ */
+#nav-menu-item-288 a:first-child, #nav-menu-item-292 a:first-child{
+	border-bottom: 1px solid #858585;
+	padding: 18px !important;
+}
+#nav-menu-item-288, #nav-menu-item-288 li, #nav-menu-item-292, #nav-menu-item-292 li{
+	width: 370px !important;
+}
+.drop_down .wide .second ul:first-child {
+    height: 300px !important;
+	width: 800px !important;
+}
+.drop_down .second .inner ul li.sub ul li a:hover, .drop_down .second .inner>ul>li>a:hover {
+    color: #f8502b !important;
+	font-size: 14px !important;
+}
+
+.drop_down .second .inner ul li.sub ul li a, .drop_down .second .inner>ul>li>a {
+    color: #1e1e1e !important;
+	font-size: 14px !important;
+}
+
+.header_top{
+	    height: auto;
+    line-height: initial;
+    padding:5px 0;
+}
+#gform_3 .ginput_container_date input{
+	width:100% !important;
+}
+#gform_3 .form-main-heading h3{
+    background-color: #d9d9d9;
+    font-size: 22px;
+    padding: 10px;
+}
+#gform_3 input[type="text"], #gform_3 input[type="tel"], #gform_3 input[type="email"], #gform_3 textarea {
+    border: 1px solid #737272;
+    padding: 15px;
+}
+#gform_3 textarea {
+	height:100px;
+}
+.header_top .left{
+	display:none;
+}
+
+.header_top .right{
+	width:100%;
+}
+
+.header_top p i{
+	padding-right:3px;
+}
+
+.header_top .right .inner{
+	float:right;
+}
+
+.header_top .right p{
+    display: inline-block;
+    border-right: 1px solid #fff;
+    line-height: 30px;
+}
+
+.header_top .q_social_icon_holder{
+	margin-left:15px!important;
+}
+
+.header_top .fa-stack{
+	margin:0px!important;
+}
+
+.header_bottom{
+	background-color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.main_menu li:last-child a{
+	padding-right:0px;
+}
+
+/* -------------- Header Css End ------------ */
+
+/* ------------ Form css start -------------- */
+
+.get-touch input[type=text], .get-touch input[type=email], .get-touch textarea, .get-touch input[type=tel]{
+	    border: 1px solid #a5a5a5!important;
+    width: 100%!important;
+    padding: 10px!important;
+    margin-top: 0px!important;
+  border-radius:10px;
+    font-size: 15px!important;
+    font-family: Roboto!important;
+}
+
+.get-touch textarea{
+	height:120px!important;
+}
+
+.get-touch .gform_wrapper .gform_fields .gfield{
+	margin-bottom:10px!important;
+}
+
+.get-touch .gform_wrapper .top_label div.ginput_container{
+	margin-top:0px!important;
+}
+
+.gf_browser_chrome{
+margin:0px!important;
+}
+
+.get-touch .gform_footer{
+	text-align:center;
+	padding-top:0px!important;
+}
+
+.get-touch input[type=submit]{
+	background: #ef4c25!important;
+    border-color: #ef4c25!important;
+    color: #fff!important;
+    border-radius: 0px!important;
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 600!important;
+    font-size: 16px!important;
+    line-height: initial!important;
+    padding: 13px 25px!important;
+    height: auto!important;
+	text-align:center!important;
+	text-transform:capitalize!important;
+}
+
+.get-touch input[type=submit]:hover{
+	background: #512f8f!important;
+    border-color: #512f8f!important;
+}
+
+.get-quote{
+	    background: #fff;
+    padding: 30px;
+	border-radius:30px;
+}
+
+.get-quote .gform_wrapper .gform_fields .gfield{
+	padding-right:0px;
+}
+
+/* ---------------- Form Css End ---------------- */
+
+.content_inner p{
+	margin-bottom:13px;
+}
+
+.our-services .icon_holder img{
+	margin-top:4px;
+}
+
+.our-services .icon_text_inner{
+	padding-bottom:0px;
+}
+
+.why-choose li:before{
+content: '\f004';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    color: #ef4c25;
+    font: normal 15px/1 FontAwesome;
+}
+
+.why-choose li{
+	    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.make img {
+	vertical-align:middle;
+}
+
+
+.footer_top h5 {
+	position:relative;}
+
+.footer_top h5:after {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #ef4c25;
+	
+}
+
+.footer-contact li
+
+{
+position: relative!important;
+padding-left: 27px!important;
+}
+
+.foot-contact a{
+	word-break: break-all!important;
+}
+
+.footer-contact li i
+{
+width: 22px!important;
+position:absolute;
+left: 0!important;
+top: 6px!important;
+}
+.footer_top h5 {
+    
+	margin: 0 0 37px;
+}
+
+
+.foot-contact li{
+	padding-top: 10px;
+    padding-bottom: 10px;
+       border-bottom: 1px solid #a09999;
+}
+
+@media only screen and (min-width:768px) {
+	.mobile-view {
+		display:none;
+	}
+	.desktop-view {
+		display:block;
+	}
+}
+@media only screen and (max-width:768px) {
+	.mobile-view {
+		display:block;
+	}
+	.desktop-view {
+		display:none;
+	}
+	.mob-res {
+		margin-top:35px;
+	}
+	#gform_2 input[type="submit"], #gform_1 input[type="submit"] {
+		width:auto;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.header_top .right p {
+	    font-size: 10px !important;
+}	
+}
+
+@media only screen and (max-width:480px) {
+.header_top .q_social_icon_holder {
+	display:none !important;
+	}
+	.header_top .right p {
+		border-right:0px;
+	}
+}
+.footer_top a:not(.qbutton) {
+    color: #fff !important;
+}
+.footer_top a:not(.qbutton):hover {
+    color: #fff !important;
+}
